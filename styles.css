@@ -198,24 +198,26 @@ p {
 }
 
 .btn-gold {
-  background: linear-gradient(135deg, var(--gold-bright) 0%, var(--gold) 100%);
-  color: #1a1814;
-  box-shadow: 0 8px 26px rgba(237, 213, 142, 0.34);
+  background: linear-gradient(135deg, #cba24b 0%, #a9802b 100%);
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(20, 18, 14, 0.22);
+  box-shadow: 0 8px 26px rgba(181, 141, 61, 0.34);
 }
 
 .btn-gold:hover {
-  background: linear-gradient(135deg, #fbf0cb 0%, var(--gold-bright) 100%);
+  background: linear-gradient(135deg, #d6b05c 0%, #b88d35 100%);
 }
 
 .btn-burgundy {
-  background: linear-gradient(135deg, #cfa754 0%, var(--burgundy) 100%);
-  color: #171511;
+  background: linear-gradient(135deg, #cba24b 0%, #a9802b 100%);
+  color: #ffffff;
   font-weight: 700;
-  box-shadow: 0 8px 24px rgba(181, 141, 61, 0.28);
+  text-shadow: 0 1px 2px rgba(20, 18, 14, 0.22);
+  box-shadow: 0 8px 24px rgba(181, 141, 61, 0.3);
 }
 
 .btn-burgundy:hover {
-  background: linear-gradient(135deg, var(--gold) 0%, #cfa754 100%);
+  background: linear-gradient(135deg, #d6b05c 0%, #b88d35 100%);
 }
 
 .btn-outline-light {
@@ -265,19 +267,24 @@ p {
 }
 
 .brand-monogram {
-  width: 42px;
-  height: 42px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
-  border: 1.5px solid var(--gold);
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-serif);
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: var(--gold);
-  letter-spacing: 0.04em;
   flex-shrink: 0;
+}
+
+.brand-monogram svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.site-header .brand-monogram {
+  background-color: #1a1814;
+  box-shadow: 0 4px 14px rgba(26, 24, 20, 0.24);
 }
 
 .brand-text {
@@ -868,13 +875,13 @@ p {
   width: 44px;
   height: 44px;
   border-radius: 12px;
-  background: linear-gradient(135deg, var(--gold-bright) 0%, var(--gold) 100%);
-  color: #1a1814;
+  background: linear-gradient(135deg, #cba24b 0%, #a9802b 100%);
+  color: #ffffff;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  box-shadow: 0 4px 12px rgba(181, 141, 61, 0.22);
+  box-shadow: 0 4px 12px rgba(181, 141, 61, 0.24);
 }
 
 .channel-icon svg {
@@ -1026,9 +1033,9 @@ p {
   width: 56px;
   height: 56px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--gold-bright) 0%, var(--gold) 100%);
-  color: #1a1814;
-  border: 1px solid rgba(26, 24, 20, 0.14);
+  background: linear-gradient(135deg, #cba24b 0%, #a9802b 100%);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
   display: inline-flex;
   align-items: center;
   justify-content: center;
