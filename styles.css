@@ -416,9 +416,13 @@ p {
 .hero {
   position: relative;
   overflow: hidden;
+  min-height: calc(100vh - var(--header-h));
+  min-height: calc(100dvh - var(--header-h));
+  display: flex;
+  align-items: center;
   background: radial-gradient(circle at 75% 22%, #4a3c20 0%, #231e15 52%, #14120e 100%);
   color: var(--ivory);
-  padding: 84px 0 104px;
+  padding: 64px 0 72px;
 }
 
 .hero-bg-pattern {

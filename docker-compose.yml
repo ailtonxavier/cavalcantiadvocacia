@@ -1,0 +1,13 @@
+services:
+  site:
+    image: busybox:musl
+    container_name: beatriz-cavalcanti-site
+    command: httpd -f -v -p 80 -h /www
+    ports:
+      - "8010:80"
+    volumes:
+      - ./index.html:/www/index.html:ro
+      - ./styles.css:/www/styles.css:ro
+      - ./script.js:/www/script.js:ro
+      - ./imgs:/www/imgs:ro
+    restart: unless-stopped
